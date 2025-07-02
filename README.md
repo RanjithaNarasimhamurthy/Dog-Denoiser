@@ -5,16 +5,14 @@ A Jupyter Notebook–based deep learning project to remove noise from dog images
 
 ## Project Structure
 - `Dog_Denoiser.ipynb` – Main notebook for training and evaluating the denoising autoencoder.
-- `requirements.txt` – List of Python dependencies.
 - `models/` – Directory containing saved model weights.
 - `data/` – Directory for datasets, including noisy and clean dog images.
 - `utils/` – Utility scripts for data preprocessing and visualization.
 
 ## Installation
 ```bash
-git clone <repository-url>
-cd <repository-directory>
-pip install -r requirements.txt
+git clone https://github.com/RanjithaNarasimhamurthy
+cd Dog-Denoiser
 ```
 
 ## Usage
@@ -40,9 +38,3 @@ pip install -r requirements.txt
 ## Results
 The autoencoder effectively reduces noise from dog images, achieving clear reconstructions. Feel free to tweak network architecture and hyperparameters for improved performance.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-*Replace `<repository-url>` and `<repository-directory>` with your GitHub repository URL and local directory name.*
